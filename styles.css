@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f0e0;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  color: black;
+  font-family: "Shrikhand", cursive;
+}
+.main-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 250px;
+}
+.logo {
+  max-width: 100px;
+}
+.triangles {
+  max-width: 75px;
+  margin: 0 auto;
+}
+.web {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.web-title {
+  font-family: "Shrikhand", cursive;
+  font-size: 22px;
+  transform: translateY(-2.7em) translateX(-0.75em);
+}
+.info {
+}
+.visuals {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.visual-title {
+  font-family: "Shrikhand", cursive;
+  font-size: 22px;
+  transform: translateY(-2.7em) translateX(-0.75em);
+}
+.carousel1 {
+}
+.hello {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hello-title {
+  font-family: "Shrikhand", cursive;
+  font-size: 22px;
+  transform: translateY(-2.7em) translateX(-0.75em);
+}
+.carousel2 {
+}
+.small-logo {
+  max-width: 30px;
+}
+.hello-words {
+}
