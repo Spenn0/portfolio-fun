@@ -52,20 +52,26 @@ h1 {
 }
 .web-imgs {
   max-width: 250px;
+  max-height: 165px;
+  border-radius: 5%;
 }
+
 .group-one {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   margin-bottom: 30px;
 }
 .group-two {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  flex-direction: column-reverse;
   margin-bottom: 30px;
 }
 .group-three {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   margin-bottom: 30px;
 }
 /* .one {
@@ -81,6 +87,7 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 }
 .visual-title {
   font-family: "Shrikhand", cursive;
@@ -92,7 +99,11 @@ h1 {
   position: relative;
   margin: auto;
 }
-
+.carousel2 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 /* Hide the images by default */
 .mySlides {
   display: none;
@@ -194,12 +205,15 @@ h1 {
   max-width: 400px;
   max-height: 266px;
 }
-.carousel2 {
+.face {
+  max-width: 400px;
+  max-height: 266px;
 }
 .hello {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 75px;
 }
 .hello-title {
   font-family: "Shrikhand", cursive;
@@ -209,6 +223,27 @@ h1 {
 
 .small-logo {
   max-width: 30px;
+  margin: 50px;
 }
 .hello-words {
+}
+@media only screen and (min-width: 600px) {
+  .group-one {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+  .group-two {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+  .group-three {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
 }
